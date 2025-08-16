@@ -1,0 +1,1 @@
+export const pickI18n = (list, locale) => list?.find(i => i.locale === locale);

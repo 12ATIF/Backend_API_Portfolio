@@ -1,0 +1,6 @@
+# If not set, defaults to SQLite at ./portfolio.db
+# DATABASE_URL=postgres://user:pass@localhost:5432/portfolio
+PORT=8000
+NODE_ENV=development
+SUPABASE_URL=https://wacumxhmyuwzwvtbuqoe.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndhY3VteGhteXV3end2dGJ1cW9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUzMTM0OTgsImV4cCI6MjA3MDg4OTQ5OH0.e1S3ERXxdhrEgDInlX4QTQ9VOuirH73SHnYmZGhylx0
