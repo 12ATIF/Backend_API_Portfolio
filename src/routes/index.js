@@ -4,11 +4,11 @@ import projects from "./projects.routes.js";
 import assets from "./assets.routes.js";
 import dev from "./dev.routes.js";
 import upload from './upload.routes.js'
-router.use('/upload', upload)
+
 
 
 const router = Router();
-
+router.use('/upload', upload)
 router.get("/health", (req, res) => res.json({ status: "ok" }));
 
 router.use("/projects", projects);

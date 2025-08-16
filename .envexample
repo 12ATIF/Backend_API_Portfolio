@@ -1,5 +1,5 @@
 # If not set, defaults to SQLite at ./portfolio.db
-# DATABASE_URL=postgres://user:pass@localhost:5432/portfolio
+DATABASE_URL=postgresql://postgres.sqrhkblgfzdfzkzlvsaq:admin1234@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres
 PORT=8000
 NODE_ENV=development
 SUPABASE_URL=https://wacumxhmyuwzwvtbuqoe.supabase.co
